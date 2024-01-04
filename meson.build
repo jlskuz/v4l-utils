@@ -380,6 +380,8 @@ subdir('v4l-utils-po')
 
 subdir('lib')
 
+ir_bpf_enabled = false
+
 if get_option('v4l-utils')
     subdir('utils')
     subdir('contrib')
